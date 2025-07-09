@@ -1,0 +1,173 @@
+/* custom style */
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.head_text{
+    font-weight:bold;
+    font-size: 35px;
+    color: #181818;}
+.content_text{
+    font-size: 18px;
+    color:#757575 ;
+}
+.bg_color{
+    background-color: #FFF8F3;
+}
+
+/* nav and bannar style */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:left top,right bottom;
+    background-size:65px,550px;
+    border:1px solid black ;
+    margin:36px 0px 0 50px;
+    background-color: #F8FFF3;
+    
+}
+    
+nav{
+    display: flex;
+    
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+ul a{
+    text-decoration: none;
+    color: #474747;
+}
+.parent{
+    
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 100px 0px 157px;
+    padding-top: 0px;
+}
+.ancor-parent{
+    display: flex;
+    align-items: center;
+}
+.btn-cls{
+    background-color:#FD6E0A ;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+
+}
+.btn-cls2{
+       
+    color: #FD6E0A;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #FD6E0A;
+
+}
+
+/* bannar style */
+
+.bannar_parent{
+    
+    display: flex;
+    justify-content: space-between;
+    margin:0 0px 0px 157px;
+    
+}
+
+.bannar_img{
+ width: 400px;
+ b
+   
+}
+.bannar_content{
+    max-width: 585px;
+    justify-content: center;
+    color:#474747;}
+
+/* about section */
+.about_title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.about_description{
+    font-size: 20px;
+    font-weight:bold;
+    color: #474747;
+}
+.about_parent{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    max-width: 1140px;
+    margin:0px auto;
+   
+}
+main section{
+    margin-top:94px;
+    margin-bottom:94px;
+}
+.about{
+    border-radius: 10px;
+    padding:138px 156px;
+    
+    text-align: center;
+    
+}
+.what{
+    font-size: 35px;
+    font-weight: bold;
+    color: #757575;
+}
+.descriptsion{
+    text-align: center;
+    padding: 115px;
+    padding-bottom:0px;
+}
+
+/* card genaration */
+.cards{
+    display:flex;
+    gap: 24px;
+    
+}
+
+.card{
+   
+    padding:33px;
+    border-radius: 5px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+    
+
+
+
+
+
+    
+
+    
+
+
+
