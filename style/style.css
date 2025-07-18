@@ -223,6 +223,7 @@ main section{
 .left_para{
     font-size: 16;
     color: #474747;
+    text-align: justify;
     
 
 }
@@ -245,6 +246,16 @@ main section{
     margin-top: 20px;
     margin-bottom:20px;
     width: 461px;
+}
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .cards{
+        flex-direction: column;
+    }
+    
 }
 
 
