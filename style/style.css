@@ -272,6 +272,13 @@ main section{
     width: 461px;
 }
 
+@media screen and (max-width:576px){
+    .footer_parent{
+        flex-direction: column;
+        padding: 0px;
+    }
+   
+
 .hide{
     display: none;
 }
