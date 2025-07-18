@@ -140,13 +140,14 @@ main section{
     
 }
 .what{
+    text-align: center;
     font-size: 35px;
     font-weight: bold;
     color: #757575;
 }
 .descriptsion{
-    text-align: center;
-    padding: 115px;
+    text-align:justify;
+    padding: 10px;
     padding-bottom:0px;
 }
 
